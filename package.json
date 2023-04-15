@@ -1,0 +1,24 @@
+{
+	"name": "esm-payload",
+	"version": "0.0.1",
+	"private": true,
+	"workspaces": ["app/**", "examples/**"],
+	"packageManager": "pnpm@7.27.1",
+	"engines": {
+		"node": ">=14.0.0"
+	},
+	"scripts": {
+		"bench": "turbo run bench",
+		"build": "turbo run build",
+		"dev": "turbo run dev --parallel",
+		"lint": "turbo run lint"
+	},
+	"devDependencies": {
+		"@lightrix/config": "0.0.8",
+		"@types/node": "18.15.11",
+		"turbo": "latest"
+	},
+	"publishConfig": {
+		"access": "restricted"
+	}
+}

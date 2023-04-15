@@ -1,0 +1,7 @@
+[submodule "app/admin"]
+path = app/admin
+url = ssh://git@github.com/Lightrix/esm-payload-admin.git
+
+[submodule "app/lib"]
+path = app/lib
+url = ssh://git@github.com/Lightrix/esm-payload-lib.git
