@@ -2,7 +2,10 @@
 	"name": "esm-payload",
 	"version": "0.0.1",
 	"private": true,
-	"workspaces": ["app/**", "examples/**"],
+	"workspaces": [
+		"app/**",
+		"examples/**"
+	],
 	"packageManager": "pnpm@7.27.1",
 	"engines": {
 		"node": ">=14.0.0"
