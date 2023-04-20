@@ -22,7 +22,6 @@
 		"turbo": "latest"
 	},
 	"publishConfig": {
-		"provenance": true,
 		"access": "restricted"
 	}
 }
