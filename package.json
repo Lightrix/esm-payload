@@ -17,7 +17,7 @@
 		"lint": "turbo run lint"
 	},
 	"devDependencies": {
-		"@lightrix/config": "0.0.9",
+		"@lightrix/config": "0.0.11",
 		"@types/node": "18.15.13",
 		"turbo": "latest"
 	},
