@@ -1,5 +1,6 @@
 {
 	"$schema": "https://turbo.build/schema.json",
+	"extends": ["//"],
 	"pipeline": {
 		"build": {
 			"dependsOn": ["^build"],
@@ -7,6 +8,10 @@
 		},
 		"dev": {
 			"cache": false
+		},
+		"prepublishOnly": {
+			"dependsOn": ["^prepublishOnly", "^build"],
+			"outputs": ["dist/**"]
 		}
 	}
 }
